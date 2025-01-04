@@ -25,6 +25,10 @@ p {
     margin: 10px 0px;
 }
 
+img {
+    display: block;
+    margin: auto;
+}
 
 header {
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor2),var(--cor4));
@@ -97,7 +101,7 @@ main small {
 
 
 main > img {
-    width: 100%;
+    width: 900%;
 }
 
 main h1{
