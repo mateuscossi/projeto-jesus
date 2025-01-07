@@ -1,0 +1,77 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #f3db00, #f3db00, #C1AE00);
+    text-align: center;
+    min-height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+header > h1 {
+    color: white;
+    font-size: 3em;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.589);
+}
+
+
+header > p {
+    color: white;
+    max-width: 500px;
+    margin: auto;
+    font-size: 1.2em;
+    padding: 0px 10px 0px 10px;
+}
+
+nav {
+    background-color: #C1AE00;
+    padding: 10px;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.555);
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+nav > a:hover{
+    color: white;
+    text-decoration: underline;
+    background-color: #f3db0091;
+    border-radius: 4px 4px 0px 0px;
+    transition-duration: 0.4s;
+}
+
+
+body {
+    background-color: #ffee52ab;
+}
+
+main {
+    min-width: 70px;
+    max-width: 600px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.377) 5px 5px 5px;
+    padding: 10px;
+    margin: auto;
+}
+
+main h1 {
+    background-color: #C1AE00;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+main img {
+    padding: 0px;
+}

@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
 :root{
-    --cor0: #ccbe00;
-    --cor1: #ccbe00;
-    --cor2: #ccbe00;
-    --cor3: #ccbe00;
-    --cor4: #ccbe00;
-    --cor5: #ccbe00;
+    --cor0: #ffffff;
+    --cor1: #bebebe;
+    --cor2: #aaaaaa;
+    --cor3: #555555;
+    --cor4: #303030;
+    --cor5: #000000;
 
 }
 
@@ -14,11 +14,12 @@
 * { 
     margin: 0px;
     padding: 0px;
+    text-align: center;
 }
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: var(--cor1);
+    background-color: gray;
 }
 
 p {
@@ -31,7 +32,7 @@ img {
 }
 
 header {
-    background-image: linear-gradient(to bottom, var(--cor2), var(--cor2),var(--cor4));
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor3),var(--cor4));
     text-align: center;
     min-height: 100px;
     padding-top: 20px;
@@ -100,18 +101,18 @@ main small {
 }
 
 
-main > img {
-    width: 900%;
+main img {
+    width: 20%;
 }
 
 main h1{
-    color: var(--cor4);
+    color: black;
     text-align: center;
     font-size: 2em;
 }
 
 main h2 {
-    color: var(--cor4);
+    color: black;
     background-image: linear-gradient(to right, var(--cor0), transparent);
 }
 
@@ -173,4 +174,3 @@ footer {
     color: white;
     text-align: center;
 }
-
