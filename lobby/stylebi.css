@@ -56,10 +56,11 @@ body {
 }
 
 main {
+    min-width: 70px;
+    max-width: 600px;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.377) 5px 5px 5px;
-    width: 600px;
     padding: 10px;
     margin: auto;
 }
