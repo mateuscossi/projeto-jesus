@@ -96,6 +96,7 @@ section#img01 {
 
 section#img02 {
     background-image: url(../imagens/backgroud-flor.jpg);
+    background-position: right center;
     background-size: cover;
 }
 
