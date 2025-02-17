@@ -47,7 +47,7 @@ header {
     color: white;
     text-align: center;
     font-family: var(--fonte2);
-    font-size: 2.5vw;
+    font-size: 3.5vw;
 }
 
 header h1 {
@@ -63,7 +63,7 @@ section {
     padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 1.5em;
-    font-size: 2.5vw;
+    font-size: 4.5vw;
 }
 
 section.normal {
